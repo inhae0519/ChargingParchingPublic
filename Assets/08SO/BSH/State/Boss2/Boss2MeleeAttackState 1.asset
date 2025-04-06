@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07ba3c25585a7e5458b00e2fbf50d5fe, type: 3}
+  m_Name: Boss2MeleeAttackState 1
+  m_EditorClassIdentifier: 
+  StateName: Cham
+  AnimState: {fileID: 11400000, guid: 9eeda76c052a78b47958e72096b05c12, type: 2}
+  NextState: {fileID: 11400000, guid: c9e590a5ee93e494381146320e0db4b5, type: 2}
+  _playerSO: {fileID: 11400000, guid: cd88f5759a03fd644bda25133db62a84, type: 2}
+  _statModifier: {fileID: 0}
+  _attackParm: {fileID: 11400000, guid: 90948f35c59e0604eaff83835f04c68f, type: 2}

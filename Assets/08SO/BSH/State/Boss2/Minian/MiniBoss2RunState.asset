@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa9a6287a35f2742951d45670151744, type: 3}
+  m_Name: MiniBoss2RunState
+  m_EditorClassIdentifier: 
+  StateName: MiniBoss2Dodge
+  AnimState: {fileID: 11400000, guid: b81265369d2cf0744918cdf70af4d5cf, type: 2}
+  NextState: {fileID: 11400000, guid: a4fd4cdf6dcca5b48be25f7f8baed730, type: 2}
+  _playerSO: {fileID: 11400000, guid: cd88f5759a03fd644bda25133db62a84, type: 2}
+  _statModifier: {fileID: 11400000, guid: 2be4e879b62822e4887eead5a416de9f, type: 2}
+  _distance: 8
+  _isPierceObstacle: 0
+  _whatisObstacle:
+    serializedVersion: 2
+    m_Bits: 7
